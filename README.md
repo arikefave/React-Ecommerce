@@ -1,12 +1,15 @@
-# React + Vite
+# CORRECTIONS TO BE MADE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Ensure that the product grid in the homepage uses the "Masonry" system.
+2. Also the background in the design is not implemented therein
+3. The designs on the product page is not consistent enough yet. It should be picture perfect with the Figma design, ensure not to download/export the images with backgrounds from Figma
+4. Also when we move to product page, the active (the nav-item whoose page we're currently on) changes to green with a green underline.
+5. Elements page currently have the home page UI, what's going on with that?
+6. Pages, Shop and Sale currently doesn't lead anywhere
 
-Currently, two official plugins are available:
+## WHAT I LIKE
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. I noticed you've added the responsive design. That's good but can be better.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ALSO DEPLOY YOUR BACKEND SO YOU CAN STOP USE MOCK DATA IN YOUR FRONTEND 
