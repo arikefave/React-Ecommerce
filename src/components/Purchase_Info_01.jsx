@@ -20,9 +20,9 @@ const Purchase_Info_01 = () => {
       </div>
       {/* productInfo */}
       <div className="flex flex-col lg:flex-row items-center justify-center w-full mt-10">
-        <div className="flex justify-between items-center w-full lg:w-[60%] bg-[#F0F0F0] p-5 lg:p-20 h-[50vh] lg:h-[500px] gap-5 lg:gap-20">
+        <div className="flex justify-between items-center w-full lg:w-[60%] bg-[#F0F0F0] p-5  h-[50vh] lg:h-[500px] gap-5 lg:gap-20">
           <FaCircleArrowLeft className="text-black w-[45px] h-[45px]" />
-          <img src="/image 20.svg" alt="product" />
+          <img src="/Greychair.png" alt="product" />
           <FaCircleArrowRight className="text-black w-[45px] h-[45px]" />
         </div>
         <div className="w-full lg:w-[40%] lg:pl-5">
@@ -94,7 +94,7 @@ const Purchase_Info_01 = () => {
       <div className="flex mt-2">
         <div className="bg-[#F0F0F0] p-2">
           <img
-            src="/image 20.svg"
+            src="/Greychair.png"
             alt="product"
             className="w-[88px] h-[110px]"
           />

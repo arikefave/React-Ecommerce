@@ -4,9 +4,10 @@ import { CiSearch } from "react-icons/ci";
 import { GoChevronDown } from "react-icons/go";
 import { IoHeartOutline } from "react-icons/io5";
 import { PiUserCircleLight } from "react-icons/pi";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const location = useLocation();
   return (
     <nav
       className="text-cBlack lg:text-white py-7 px-5 lg:px-40 lg:bg-cBlack"
@@ -49,14 +50,66 @@ const NavBar = () => {
       </div>
       <div>
         <ul className="hidden lg:flex justify-center items-center gap-5 mt-10">
-          <Link to="/" className="text-cGreen underline">
+          <Link
+            to="/"
+            className={
+              location.pathname === "/"
+                ? "text-cGreen underline"
+                : "text-white hover:text-cGreen transition-colors"
+            }
+          >
             Home
           </Link>
-          <Link to="/catalog">Products</Link>
-          <Link to="/">Elements</Link>
-          <Link to="/">Pages</Link>
-          <Link to="/">Shop</Link>
-          <Link to="/">Sale</Link>
+          <Link
+            to="/catalog"
+            className={
+              location.pathname === "/catalog"
+                ? "text-cGreen underline"
+                : "text-white hover:text-cGreen transition-colors"
+            }
+          >
+            Products
+          </Link>
+          <Link
+            to="/dashboard"
+            className={
+              location.pathname === "/dashboard"
+                ? "text-cGreen underline"
+                : "text-white hover:text-cGreen transition-colors"
+            }
+          >
+            Elements
+          </Link>
+          <Link
+            to="/productInnerPage "
+            className={
+              location.pathname === "/productInnerPage"
+                ? "text-cGreen underline"
+                : "text-white hover:text-cGreen transition-colors"
+            }
+          >
+            Pages
+          </Link>
+          <Link
+            to="/mycart"
+            className={
+              location.pathname === "/mycart"
+                ? "text-cGreen underline"
+                : "text-white hover:text-cGreen transition-colors"
+            }
+          >
+            Shop
+          </Link>
+          <Link
+            to="/shippingdetails"
+            className={
+              location.pathname === "/shippingdetails"
+                ? "text-cGreen underline"
+                : "text-white hover:text-cGreen transition-colors"
+            }
+          >
+            Sale
+          </Link>
         </ul>
       </div>
     </nav>

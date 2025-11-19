@@ -1,7 +1,7 @@
 export const Productdata = [
   {
     id: 1,
-    img: "/image 20.svg",
+    img: "/Greychair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -9,7 +9,7 @@ export const Productdata = [
   },
   {
     id: 2,
-    img: "/image 21.svg",
+    img: "/Goldchair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -17,7 +17,7 @@ export const Productdata = [
   },
   {
     id: 3,
-    img: "/image 22.svg",
+    img: "/Brownchair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -25,7 +25,7 @@ export const Productdata = [
   },
   {
     id: 4,
-    img: "/image 21.svg",
+    img: "/Goldchair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -33,7 +33,7 @@ export const Productdata = [
   },
   {
     id: 5,
-    img: "/image 22.svg",
+    img: "/Brownchair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -41,7 +41,7 @@ export const Productdata = [
   },
   {
     id: 6,
-    img: "/image 20.svg",
+    img: "/Greychair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -49,7 +49,7 @@ export const Productdata = [
   },
   {
     id: 7,
-    img: "/image 20.svg",
+    img: "/Greychair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -57,7 +57,7 @@ export const Productdata = [
   },
   {
     id: 8,
-    img: "/image 21.svg",
+    img: "/Goldchair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
@@ -65,7 +65,7 @@ export const Productdata = [
   },
   {
     id: 9,
-    img: "/image 20.svg",
+    img: "/Greychair.png",
     productName: "Cupboards",
     originalPrice: "$45.00",
     discountedPrice: "$44.00",
